@@ -4,3 +4,19 @@ Notepad adalah aplikasi yang digunakan untuk menulis, mengedit, dan menyimpan te
 # Storyboard Notepad App
 ![Notepad](image-storyboard-notepad.png)
 # Mockup Notepad App
+# User Login
+![Notepad](Mockup/Login.jpg)
+# Homepage UI
+![Notepad](Mockup/Homepage.jpg)
+# Menu
+![Notepad](Mockup/Menu.jpg)
+# Content Notes
+![Notepad](Mockup/IsiCatatan.jpg)
+# Edit
+![Notepad](Mockup/EditCatatan.jpg)
+# Search History
+![Notepad](Mockup/RiwayatPencarian.jpg)
+# Folders
+![Notepad](Mockup/FolderCatatan.jpg)
+# Sync
+![Notepad](Mockup/Sinkronisasi.jpg)
