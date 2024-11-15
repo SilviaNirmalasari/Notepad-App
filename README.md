@@ -14,7 +14,7 @@ Notepad adalah aplikasi yang digunakan untuk menulis, mengedit, dan menyimpan te
 * Membersihkan teks dari pemformatan yang tidak diinginkan, terutama jika teks disalin dari dokumen lain atau halaman web.
 * Membuka file log atau file teks lain yang berisi informasi sistem.
 # Storyboard Notepad App
-![Notepad](image-storyboard-notepad.png)
+![Notepad](image-storybroad-notepad.png)
 # Mockup Notepad App
 # User Login In Notepad App
 ![Notepad](Mockup/Login.jpg)
