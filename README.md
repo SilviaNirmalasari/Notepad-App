@@ -1,11 +1,12 @@
 ![Notepad](logo-notepad.png)
 # Notepad-App
 Notepad adalah aplikasi yang digunakan untuk menulis, mengedit, dan menyimpan teks dalam format teks biasa (plain text). File yang dibuat menggunakan Notepad disimpan dengan ekstensi .txt, yang dapat dibuka oleh berbagai aplikasi lain, baik di Windows, macOS, Linux, maupun perangkat seluler.
-Fungsi dan Kegunaan Notepad
-Mencatat informasi atau ide dengan cepat.
-Membuat catatan atau daftar sederhana.
-Membuat file skrip atau kode sederhana, seperti batch (.bat), HTML, atau Python (.py).
-Membersihkan teks dari format yang tidak diinginkan, misalnya saat menyalin teks dari dokumen lain yang memiliki format kompleks.
+# Kegunaan Notepad
+Mencatat ide atau catatan cepat tanpa format.
+Membuat daftar tugas (to-do list) atau catatan singkat.
+Menulis skrip atau kode sederhana untuk pemrograman atau pembuatan website.
+Membersihkan teks dari pemformatan yang tidak diinginkan, terutama jika teks disalin dari dokumen lain atau halaman web.
+Membuka file log atau file teks lain yang berisi informasi sistem.
 # Storyboard Notepad App
 ![Notepad](image-storyboard-notepad.png)
 # Mockup Notepad App
