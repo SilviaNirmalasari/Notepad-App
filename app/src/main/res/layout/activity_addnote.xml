@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddNoteActivity" >
+
+
+    <ImageView
+        android:id="@+id/headernote"
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/header"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="ContentDescription,MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/notepadtext"
+        android:layout_width="202dp"
+        android:layout_height="32dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/textheader_notepad"
+        app:layout_constraintBottom_toBottomOf="@+id/headernote"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.076"
+        app:layout_constraintStart_toStartOf="@+id/headernote"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.619"
+        tools:ignore="ContentDescription,MissingConstraints" />
+
+    <EditText
+        android:id="@+id/etNoteTitle"
+        android:layout_width="344dp"
+        android:layout_height="48dp"
+        android:layout_margin="16dp"
+        android:background="@drawable/round_title"
+        android:hint="JUDUL"
+        android:minHeight="48dp"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/etNoteContent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.238"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/headernote"
+        app:layout_constraintVertical_bias="0.535"
+        tools:ignore="Autofill,HardcodedText,MissingConstraints,TextFields,VisualLintTextFieldSize,TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/etNoteContent"
+        android:layout_width="355dp"
+        android:layout_height="696dp"
+        android:layout_margin="16dp"
+        android:background="@drawable/round_fill"
+        android:hint="Tulis Apapun Disini"
+        android:minHeight="48dp"
+        android:padding="20dp"
+        android:paddingTop="100dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.917"
+        tools:ignore="Autofill,HardcodedText,MissingConstraints,TextFields,VisualLintTextFieldSize,TextContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/savebt"
+        android:layout_width="48dp"
+        android:layout_height="51dp"
+        android:background="@drawable/bt_save"
+        app:layout_constraintBottom_toBottomOf="@+id/headernote"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.955"
+        app:layout_constraintStart_toStartOf="@+id/headernote"
+        app:layout_constraintTop_toTopOf="@+id/headernote"
+        app:layout_constraintVertical_bias="0.695"
+        tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
