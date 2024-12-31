@@ -1,4 +1,4 @@
-package com.android.notepadapp
+package com.silviamala.app.notepad
 
 import org.junit.Test
 
