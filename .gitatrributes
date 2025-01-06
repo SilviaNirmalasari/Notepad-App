@@ -1,0 +1,4 @@
+# Help Github Detection Language Kotlin
+app/src/main/java/HomepageActivity.kt linguist-language=Kotlin
+app/src/main/java/AddNoteActivity.kt linguist-language=Kotlin
+app/src/main/java/StartedActivity.kt linguist-language=Kotlin
