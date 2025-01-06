@@ -22,7 +22,5 @@
 ![Notepad](Mockup/Login.jpg)
 # Homepage UI
 ![Notepad](Mockup/Homepage.jpg)
-# Menu
-![Notepad](Mockup/Menu.jpg)
 # Content Notes
 ![Notepad](Mockup/IsiCatatan.jpg)
